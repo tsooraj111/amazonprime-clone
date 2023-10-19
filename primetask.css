@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#item3>ol>li{
+    display: inline-block;
+    /* margin-right:px; */
+}
+#item3>ol>li #nav1{
+    margin-top: 10px;
+}
+#item3>ol>li #nav2{
+    margin-top: 5px;
+    float: top;
+}
+#item3{
+    background-color: black;
+    color: #aaa;
+    height: 3rem;
+    padding: 0px 220px 0px 285px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+#primelogo img{
+    height: 27px;
+    width: 100px;
+    padding-top: 10px;
+    float: top;
+}
+#primelogo,#nav2{
+    margin: 0px 24px;
+}
+#nav1{
+    margin: 0px 20px 0px;
+    padding-bottom: 0px;
+    float: bottom;
+}
+.fa-solid{
+    margin-left: 2px;
+}
+#nav1 ol{
+    margin-right: 10px;
+}
+#nav2 ol{
+    margin-right: 10px;
+}
+#nav1 ol li,#nav2 ol li{
+    display: inline-block;
+    margin-right: 2rem;
+    margin-top: 9.5;
+    margin-bottom: 0rem;
+    font-size: 1.01rem;
+    font-weight: 600;
+}
+#item3 #profile{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNTAgMTAwYzI3LjYxNCAwIDUwLTIyLjM4NiA1MC01MFM3Ny42MTQgMCA1MCAwIDAgMjIuMzg2IDAgNTBzMjIuMzg2IDUwIDUwIDUwWiIgZmlsbD0idXJsKCNhKSIvPjxwYXRoIGQ9Ik04Ni43MTggODMuOTM5Qzc3LjU4MyA5My44MTYgNjQuNTE0IDEwMCA1MCAxMDBjLTE0LjczIDAtMjcuOTc0LTYuMzctMzcuMTI0LTE2LjUwNiAxLjIxMi0zLjA5IDIuOTIyLTUuOTAyIDUuMzA0LTguMjI4QzI1LjQ2IDY4LjE1NyAzOC40MjUgNjUuMjM1IDUwIDY1LjIzNWMxMS41NTQgMCAyMy42NTUgMi45MDYgMzAuOTMzIDkuOTkzIDIuNTEyIDIuNDQ2IDQuNDA1IDUuNDMgNS43ODUgOC43MVoiIGZpbGw9InVybCgjYikiLz48cGF0aCBkPSJNNjkuNTIgMzcuMTFjLjc5NC0xMi4yMTMtNS44OS0yMi4yNjYtMTkuNDY4LTIyLjI2Ni0xMy41NzkgMC0yMC4yNjMgMTAuMDUzLTE5LjQ2OCAyMi4yNjUuNzk1IDEyLjIxMyA4Ljc5NCAyMC43MDMgMTkuNDY4IDIwLjcwMyAxMC42NzMgMCAxOC42NzMtOC40OSAxOS40NjgtMjAuNzAzWiIgZmlsbD0idXJsKCNjKSIvPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAiIHkxPSIwIiB4Mj0iMTAwIiB5Mj0iMTAwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzRDNzE4RSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzJCNDA1MyIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iNDEuNTU0IiB5MT0iMzAuMzQ3IiB4Mj0iODIuNzEyIiB5Mj0iNzEuNTM5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuODUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJjIiB4MT0iNDEuNTU0IiB5MT0iMzAuMzQ3IiB4Mj0iODIuNzEyIiB5Mj0iNzEuNTM5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuODUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPg==");
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+#item3 #search{
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxjaXJjbGUgaWQ9ImEiIGN4PSI4IiBjeT0iOCIgcj0iOCIvPjxtYXNrIGlkPSJiIiBtYXNrQ29udGVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgbWFza1VuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSIjZmZmIj48dXNlIHhsaW5rOmhyZWY9IiNhIi8+PC9tYXNrPjwvZGVmcz48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIG9wYWNpdHk9Ii43Ij48dXNlIHN0cm9rZT0iI0ZGRiIgbWFzaz0idXJsKCNiKSIgc3Ryb2tlLXdpZHRoPSI0IiB4bGluazpocmVmPSIjYSIvPjxwYXRoIGQ9Im0xMy40MTQgMTEgNi4zNjcgNi4zNjdhLjk5NS45OTUgMCAwIDEtLjAwMyAxLjQxMWMtLjM5LjM5LTEuMDMuMzg1LTEuNDEuMDAzTDEyIDEyLjQxNCAxMy40MTQgMTFaIiBmaWxsPSIjRkZGIi8+PC9nPjwvc3ZnPg==");
+    background-position:left;
+    background-size: cover;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+ol li:hover{
+    color: #fff;
+}
+/* ------------------------------------------------------------------------------------------ */
+.cont1{
+    height: 70vh;
+    width: 100%;
+}
+.font{
+    color: #fff;
+}
+#cont2 .wl-text{
+    font-size: 2.9rem; 
+    font-weight: 10;
+    margin-top: 1.6rem;
+}
+#wall-img{
+    padding: 5rem 4.6rem 13.4rem;
+    background-image:linear-gradient(to right, #000 40%, transparent 58%),
+    url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    background-position: left top;
+    background-size: cover;
+}
+/* #cont7 .pfont{
+    font-size: 1.8rem;
+} */
+.pfont{
+    font-size: 1.6rem;
+    margin-top: 20px;
+    font-weight: 100;
+}
+button{
+    background-color: #0f79af;
+    color: aliceblue;
+    font-size: 17.5px;
+    border: none;
+    border-radius: 3px;
+    height: 3.0rem;
+    width: 17.6rem;
+    margin-top: 14px;
+}
+button:hover{
+    background-color: rgb(61, 169, 223);
+}
+#cont7 .pfont{
+    padding-right: 5rem;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+#cont8 .wl-text,#cont7 .wl-text,#cont88 .wl-text{
+    font-weight: 420;
+    font-size: 2.5rem;
+}
+#wall-img2{
+    padding-left: 51.8rem;
+    padding-top: 6.6rem;
+    padding-bottom: 13rem;
+    background-image:
+    linear-gradient(to left, #000 40%, transparent 58%),
+    url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg);
+    background-position: left top;
+    background-size: cover;
+}
+#wall-img3{
+    padding-left: 5rem;
+    padding-top: 2.5rem;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+.cont4{
+    height: 90vh;
+    width: 100%;
+    padding-bottom: 1rem;
+    background-color: #fff;
+}
+#cont5{
+    width: 38rem;
+}
+#cont5 .wl-text{
+    font-size: 3rem;
+    font-weight: 330;
+}
+#cont5 .pfont{
+    font-weight: 330;
+    text-align: justify;
+}
+#cont6{
+    margin-left: 43rem;
+    margin-top: -17.8rem;
+}
+#cont6 img{
+    height: 9.8rem;
+    width: 14rem;
+    margin: 1.5px;
+}
+#cont6 img:hover{
+    box-shadow: 0px 0px 10px #000;
+}
+/* ----------------------------------------------------------------------------- */
+#wall-img4{
+    padding: 7.5rem 2rem 8rem 52rem;
+    background-image:linear-gradient(to left, #000 40%, transparent 58%),
+    url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+    background-position: left top;
+    background-size: cover;
+    height: 70vh;
+}
+/* ------------------------------------------------------------------------------- */
+#cont8{
+    padding-right: 50rem;
+}
+#wall-img5{
+    padding-left: 5rem;
+    padding-top: 7rem;
+    background-image:linear-gradient(to right, #000 40%, transparent 58%),
+    url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg);
+    background-position: right top;
+    height: 66vh;
+}
+/* ------------------------------------------------------------------------------------- */
+footer div{
+    height: 19vh;
+    background-color: #222222;
+}
+#cont9{
+    margin: 0rem 25rem;
+    padding: 0rem 10.5rem 1rem ;
+}
+#cont9 a{
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    color: #0f79af;
+    padding: 0px 5px;
+}
+#cont9 img{
+    padding: 1.4rem 8rem 0rem;
+}
+#cont9 span{
+    padding-left: 25px;
+    font-size: 15px;
+    color: #949494;
+}
